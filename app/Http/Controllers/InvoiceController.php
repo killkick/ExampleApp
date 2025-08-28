@@ -10,7 +10,9 @@ class InvoiceController extends Controller
     public function store()
     {
         Invoice::query()->create();
-        return response()->json(['message' => 'Invoice created'], 201);
+
+        return response()->json(['message' => 'success'], 201);
+
     }
 
 
