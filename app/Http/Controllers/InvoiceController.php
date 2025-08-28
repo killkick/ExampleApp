@@ -11,7 +11,7 @@ class InvoiceController extends Controller
     {
         Invoice::query()->create();
 
-        return response()->json(['message' => 'success'], 201);
+        return response()->json(['messages' => 'success111'], 201);
 
     }
 
